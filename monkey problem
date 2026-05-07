@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[]args)
+    {
+        int n,k=2,j=3,m,p,tot,Bp,Bb,rem;
+        int Db=0;
+        int Dp=0;
+        System.out.println("enter the number of monkeys");
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+        System.out.println("enter the number of bananas");
+        m=s.nextInt();
+        System.out.println("enter the number of peanut");
+        p=s.nextInt();
+        Db=m/k;
+        Dp=p/j;
+        tot=Db+Dp;
+        n=n-tot;
+        while(m%k!=0||p%j!=0)
+        {
+            n=n-1;
+        }
+        System.out.println("number of monkeys remaining in  tree="+n);
+    }
+        
+}
