@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        int x;
+        int y;
+        int Q;
+        int R;
+        x=20;
+        y=3;
+        Q=x/y;
+        R=x%y;
+        System.out.println("Q="+Q);
+        System.out.println("R="+R);
+    }
+}
+
+
