@@ -11,7 +11,8 @@ class main {
         last=n%10;
         rev=rev*10+last;
         n=n/10;
-    System.out.println("rev="+rev);
     }
+    System.out.println("rev="+rev);
+    
     }
 }
