@@ -1,0 +1,21 @@
+class main {
+   public static void main(Strings[] args){
+     int x=5;
+     int y=10;
+     System.out.println("before swapping x="+x);
+     System.out.println("after swapping y="+y);
+     x=x^y;
+     y=x^y;
+     x=x^y;
+     System.out.println("before swapping x="+x);
+     System.out.println("after swapping y="+y);
+
+
+
+
+
+
+
+
+
+
